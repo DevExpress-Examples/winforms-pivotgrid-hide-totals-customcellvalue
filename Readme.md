@@ -4,6 +4,7 @@ This example demonstrates how to use the [CustomCellValue](https://docs.devexpre
 
 ![screenshot](./images/screenshot.png)
 
+
 API in this example:
 
 * [PivotGridControl.CustomCellValue](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomCellValue) event
