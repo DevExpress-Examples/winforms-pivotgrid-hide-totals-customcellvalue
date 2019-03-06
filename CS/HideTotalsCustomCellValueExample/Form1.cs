@@ -11,6 +11,7 @@ namespace HideTotalsCustomCellValueExample
         public Form1()
         {
             InitializeComponent();
+            pivotGridControl1.CustomCellValue += pivotGridControl1_CustomCellValue;
             BindingList<PivotData> data = new BindingList<PivotData>();
             for (int i = 0; i < 100; i++)
                 data.Add(new PivotData() { Group = "Group " + i % 4, Row = "Row " + i % 5, Column = "Column" + i % 3, Value = i });

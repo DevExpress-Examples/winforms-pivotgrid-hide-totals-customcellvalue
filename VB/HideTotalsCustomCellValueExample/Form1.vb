@@ -10,6 +10,7 @@ Namespace HideTotalsCustomCellValueExample
 
 		Public Sub New()
 			InitializeComponent()
+			AddHandler pivotGridControl1.CustomCellValue, AddressOf pivotGridControl1_CustomCellValue
 			Dim data As New BindingList(Of PivotData)()
 			For i As Integer = 0 To 99
 				data.Add(New PivotData() With {.Group = "Group " & i Mod 4, .Row = "Row " & i Mod 5, .Column = "Column" & i Mod 3, .Value = i})

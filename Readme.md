@@ -1,6 +1,6 @@
-# How to Handle the CustomValueCell Event to Hide Row and Column Totals
+# How to Handle the CustomValueCell Event to Hide Row Totals
 
-This example demonstrates how to use the [CustomCellValue](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomCellValue) event to hide field's row totals and grand totals. When field values are collapsed, the totals are hidden as well.
+This example demonstrates how to use the [CustomCellValue](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomCellValue) event to hide field's row totals and grand totals. When field values are collapsed, the totals remain hidden.
 
 ![screenshot](./images/screenshot.png)
 
