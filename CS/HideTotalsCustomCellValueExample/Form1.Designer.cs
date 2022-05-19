@@ -29,6 +29,11 @@ namespace HideTotalsCustomCellValueExample
         /// </summary>
         private void InitializeComponent()
         {
+            DevExpress.XtraPivotGrid.DataSourceColumnBinding dataSourceColumnBinding1 = new DevExpress.XtraPivotGrid.DataSourceColumnBinding();
+            DevExpress.XtraPivotGrid.DataSourceColumnBinding dataSourceColumnBinding2 = new DevExpress.XtraPivotGrid.DataSourceColumnBinding();
+            DevExpress.XtraPivotGrid.DataSourceColumnBinding dataSourceColumnBinding3 = new DevExpress.XtraPivotGrid.DataSourceColumnBinding();
+            DevExpress.XtraPivotGrid.DataSourceColumnBinding dataSourceColumnBinding4 = new DevExpress.XtraPivotGrid.DataSourceColumnBinding();
+            DevExpress.XtraPivotGrid.DataSourceColumnBinding dataSourceColumnBinding5 = new DevExpress.XtraPivotGrid.DataSourceColumnBinding();
             this.pivotGridControl1 = new DevExpress.XtraPivotGrid.PivotGridControl();
             this.pivotGridField1 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.pivotGridField2 = new DevExpress.XtraPivotGrid.PivotGridField();
@@ -49,7 +54,7 @@ namespace HideTotalsCustomCellValueExample
             this.fieldLowLevel});
             this.pivotGridControl1.Location = new System.Drawing.Point(0, 0);
             this.pivotGridControl1.Name = "pivotGridControl1";
-            this.pivotGridControl1.OptionsData.DataProcessingEngine = DevExpress.XtraPivotGrid.PivotDataProcessingEngine.LegacyOptimized;
+            this.pivotGridControl1.OptionsData.DataProcessingEngine = DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Optimized;
             this.pivotGridControl1.Size = new System.Drawing.Size(828, 368);
             this.pivotGridControl1.TabIndex = 0;
             this.pivotGridControl1.CustomCellValue += new System.EventHandler<DevExpress.XtraPivotGrid.PivotCellValueEventArgs>(this.pivotGridControl1_CustomCellValue);
@@ -58,14 +63,16 @@ namespace HideTotalsCustomCellValueExample
             // 
             this.pivotGridField1.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
             this.pivotGridField1.AreaIndex = 0;
-            this.pivotGridField1.FieldName = "Column";
+            dataSourceColumnBinding1.ColumnName = "Column";
+            this.pivotGridField1.DataBinding = dataSourceColumnBinding1;
             this.pivotGridField1.Name = "pivotGridField1";
             // 
             // pivotGridField2
             // 
             this.pivotGridField2.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
             this.pivotGridField2.AreaIndex = 1;
-            this.pivotGridField2.FieldName = "Row";
+            dataSourceColumnBinding2.ColumnName = "Row";
+            this.pivotGridField2.DataBinding = dataSourceColumnBinding2;
             this.pivotGridField2.Name = "pivotGridField2";
             // 
             // pivotGridField3
@@ -73,14 +80,16 @@ namespace HideTotalsCustomCellValueExample
             this.pivotGridField3.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
             this.pivotGridField3.AreaIndex = 0;
             this.pivotGridField3.Caption = "Summary Value";
-            this.pivotGridField3.FieldName = "Value";
+            dataSourceColumnBinding3.ColumnName = "Value";
+            this.pivotGridField3.DataBinding = dataSourceColumnBinding3;
             this.pivotGridField3.Name = "pivotGridField3";
             // 
             // pivotGridField4
             // 
             this.pivotGridField4.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
             this.pivotGridField4.AreaIndex = 0;
-            this.pivotGridField4.FieldName = "Group";
+            dataSourceColumnBinding4.ColumnName = "Group";
+            this.pivotGridField4.DataBinding = dataSourceColumnBinding4;
             this.pivotGridField4.Name = "pivotGridField4";
             // 
             // fieldLowLevel
@@ -88,7 +97,8 @@ namespace HideTotalsCustomCellValueExample
             this.fieldLowLevel.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
             this.fieldLowLevel.AreaIndex = 1;
             this.fieldLowLevel.Caption = "Low Level Value";
-            this.fieldLowLevel.FieldName = "Value";
+            dataSourceColumnBinding5.ColumnName = "Value";
+            this.fieldLowLevel.DataBinding = dataSourceColumnBinding5;
             this.fieldLowLevel.Name = "fieldLowLevel";
             // 
             // Form1
