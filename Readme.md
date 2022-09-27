@@ -10,7 +10,7 @@ This example demonstrates how to handle the [CustomCellValue](https://docs.devex
 
 ## Files to Review
 
-[Form1.cs](./CS/HideTotalsCustomCellValueExample/Form1.cs)/[Form1.vb](./VB/HideTotalsCustomCellValueExample/Form1.vb)
+[Form1.cs](./CS/HideTotalsCustomCellValueExample/Form1.cs)([Form1.vb](./VB/HideTotalsCustomCellValueExample/Form1.vb))
 ## Documentation
 
 * [Summarization - Totals](https://docs.devexpress.com/WindowsForms/1810)
