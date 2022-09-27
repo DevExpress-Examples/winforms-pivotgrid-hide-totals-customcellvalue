@@ -5,9 +5,13 @@
 <!-- default badges end -->
 # Pivot Grid for WinForms - Hide Row Totals
 
-This example demonstrates how to handle the [CustomCellValue](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomCellValue) event to hide field's row totals and grand totals. When field values are collapsed, the total values remain hidden.
+This example demonstrates how to handle the [CustomCellValue](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CustomCellValue) event to hide field's row totals and grand totals. The total values remain hidden when you expand or collapse field values.
 
 ![screenshot](./images/screenshot.png)
+
+## Files to Review
+
+[Form1.cs](./CS/HideTotalsCustomCellValueExample/Form1.cs)/[Form1.vb](./VB/HideTotalsCustomCellValueExample/Form1.vb)
 ## Documentation
 
 * [Summarization - Totals](https://docs.devexpress.com/WindowsForms/1810)
