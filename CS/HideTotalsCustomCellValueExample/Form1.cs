@@ -3,7 +3,6 @@ using DevExpress.XtraPivotGrid;
 using System.ComponentModel;
 using System.Linq;
 
-
 namespace HideTotalsCustomCellValueExample {
     public partial class Form1 : XtraForm {
         public Form1() {
@@ -33,5 +32,4 @@ namespace HideTotalsCustomCellValueExample {
         public string Column { get; set; }
         public decimal Value { get; set; }
     }
-
 }
