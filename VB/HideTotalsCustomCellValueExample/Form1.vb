@@ -3,7 +3,6 @@ Imports DevExpress.XtraPivotGrid
 Imports System.ComponentModel
 Imports System.Linq
 
-
 Namespace HideTotalsCustomCellValueExample
 	Partial Public Class Form1
 		Inherits XtraForm
@@ -35,5 +34,4 @@ Namespace HideTotalsCustomCellValueExample
 		Public Property Column() As String
 		Public Property Value() As Decimal
 	End Class
-
 End Namespace
