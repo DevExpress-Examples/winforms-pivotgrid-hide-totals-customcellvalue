@@ -18,7 +18,8 @@ namespace HideTotalsCustomCellValueExample {
 
         private void pivotGridControl1_CustomCellValue(object sender, PivotCellValueEventArgs e) {
             if (e.DataField == fieldLowLevel) {
-                PivotGridField lastLevelField = pivotGridControl1.GetFieldsByArea(PivotArea.RowArea).Last();
+                PivotGridField lastLevelField = 
+                    pivotGridControl1.GetFieldsByArea(PivotArea.RowArea).Last();
                 if(e.RowValueType == PivotGridValueType.Total 
                     || e.RowValueType == PivotGridValueType.GrandTotal 
                     || e.RowField != lastLevelField)
