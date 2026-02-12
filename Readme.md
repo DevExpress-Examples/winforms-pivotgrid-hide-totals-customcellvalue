@@ -23,7 +23,7 @@ This example demonstrates how to handle the [CustomCellValue](https://docs.devex
 - [How to Use the Other Cell's Values in the Current Cell Value Calculation](https://github.com/DevExpress-Examples/how-to-access-other-cell-value-while-calculating-the-current-cell-e1110)
 - [Pivot Grid for WinForms - Split Field Value Cells](https://github.com/DevExpress-Examples/how-to-split-field-value-cells-e2763)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivotgrid-hide-totals-customcellvalue&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivotgrid-hide-totals-customcellvalue&~~~was_helpful=no)
 
