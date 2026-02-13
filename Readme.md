@@ -22,7 +22,7 @@ API in this example:
 * [Summarization - Totals](https://docs.devexpress.com/WindowsForms/1810)
 * [UI Elements - Totals](https://docs.devexpress.com/WindowsForms/1691)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivotgrid-hide-totals-customcellvalue&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivotgrid-hide-totals-customcellvalue&~~~was_helpful=no)
 
